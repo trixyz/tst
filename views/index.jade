@@ -1,0 +1,9 @@
+extends layout
+
+block scripts
+  script(src="/javascripts/index.js")
+block content
+  h1= title
+  p Welcome to #{title}
+  div(class='editable') bla bla
+  button(id='save-button') Save
